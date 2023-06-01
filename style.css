@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 500px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    padding: 10%;
+    padding-top: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input:not(input[type="submit"]) {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    padding: 5px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.container form input[type="submit"] {
+    display: block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: auto;
+}
