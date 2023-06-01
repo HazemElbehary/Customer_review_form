@@ -43,3 +43,9 @@ textarea {
     cursor: pointer;
     margin: auto;
 }
+
+@media (max-width:767px) {
+    .container {
+        width: 300px;
+    }
+}
